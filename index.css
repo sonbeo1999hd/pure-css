@@ -1,0 +1,120 @@
+
+.content{
+    
+    padding: 3rem 2rem 0;
+} 
+.slidebar{
+    top:0px;
+    color: #fff;
+    background: rgb(61, 79, 93);
+}
+.header{
+    
+    text-align: center;
+}
+.header .brand-title{
+    text-transform: uppercase;
+
+}
+.header .brand-tagline{
+    font-weight: 300;
+    color: rgb(176, 202, 219);
+}
+.header .nav ul li{
+    list-style: none;
+    display: inline-block;
+    background: transparent;
+}
+.header .nav ul li a{
+    background: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid rgb(176, 202, 219);
+}
+.header .nav ul li a:hover{
+    border: 2px solid blue;
+}
+.content .posts{
+    margin-bottom: 80px;
+}
+.content .content-subhead{
+    text-transform: uppercase;
+    font-size: 80%;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+.content .post-avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: right;
+}
+.content .post-title{
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+}
+.content .post-meta{
+    color: #aaa;
+    font-size: 90%;
+}
+.content .post-images img{
+    width: 100%;
+}
+.content .posts a{
+    text-decoration: none;
+}
+.content .post-category{
+    color: #fff;
+    padding: 2px 10px;
+}
+.content .post-category-css{
+    background: #5aba59;
+}
+.content .post-category-pure{
+    background: #4d85d1;
+}
+.content .post-category-js{
+    background: #df2d4f;
+}
+.content .post-descreption{
+line-height: 1.8em;
+}
+.content .post-category-un{
+    background: #999;
+}
+.content .post-category-yui{
+    background: #8156a7;
+}
+.content .img-title{
+    margin-left: 1em;
+    margin-top: -2em;
+    color: #fff;
+}
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: #cccccc;
+    font-size: 90%
+}
+.footer ul li{
+    margin-left: 10px
+}
+@media screen and (min-width: 48em){
+    .header{
+        top:0;
+        text-align: right;
+        margin: 80% 2em 0;
+    }
+    .slidebar{
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+    }
+    .content{
+        margin-left: 25%;
+    }
+}
